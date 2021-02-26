@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.navbar__left {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.navbar__leftIcon {
+  color: gray;
+}
+
+.navbar__logo {
+  height: 40px;
+  padding-left: 10px;
+}
+
+.navbar__middle {
+  display: flex;
+  align-items: center;
+  flex: 0.9;
+}
+
+.navbar__input {
+  width: 90%;
+  height: 20px;
+}
+
+.navbar__inputIcon {
+  background-color: lightgray;
+  color: gray;
+  height: 20px;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar__rightIcon {
+  padding-right: 10px;
+  color: gray;
+}
