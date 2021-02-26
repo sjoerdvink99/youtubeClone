@@ -1,0 +1,7 @@
+.app__body {
+  display: flex;
+}
+
+.app__bodySidebar {
+  flex: 0.2;
+}

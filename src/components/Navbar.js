@@ -7,7 +7,7 @@ import {
   Search,
   VideoCall,
 } from "@material-ui/icons";
-import { Avatar } from "@material-ui/core";
+import { Avatar, IconButton } from "@material-ui/core";
 
 export default function Navbar() {
   return (
@@ -29,9 +29,15 @@ export default function Navbar() {
         <Search className='navbar__inputIcon' />
       </div>
       <div className='navbar__right'>
-        <VideoCall className='navbar__rightIcon' />
-        <Apps className='navbar__rightIcon' />
-        <Notifications className='navbar__rightIcon' />
+        <IconButton>
+          <VideoCall className='navbar__rightIcon' />
+        </IconButton>
+        <IconButton>
+          <Apps className='navbar__rightIcon' />
+        </IconButton>
+        <IconButton>
+          <Notifications className='navbar__rightIcon' />
+        </IconButton>
         <Avatar src='' />
       </div>
     </div>
