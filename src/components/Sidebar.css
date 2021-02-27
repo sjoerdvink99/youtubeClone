@@ -1,15 +1,5 @@
-.sidebarRow {
-  display: flex;
-  align-items: center;
-  padding: 15px 10px;
-}
-
 .sidebar {
-  border-right: 1px solid lightgray;
+  flex: 0.2;
   padding: 10px 0;
   height: 100vh;
-}
-
-.sidebarRow:hover {
-  background-color: lightgray;
 }

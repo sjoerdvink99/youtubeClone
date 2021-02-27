@@ -17,6 +17,7 @@ export default function Sidebar() {
       <SidebarRow Icon={Home} title='Home' />
       <SidebarRow Icon={Whatshot} title='Trending' />
       <SidebarRow Icon={Subscriptions} title='Abonnementen' />
+      <hr />
       <SidebarRow Icon={VideoLibrary} title='Bibliotheek' />
       <SidebarRow Icon={History} title='Geschiedenis' />
       <SidebarRow Icon={PlayCircleFilled} title="Je video's" />

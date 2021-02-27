@@ -2,17 +2,17 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import RecommendedVideos from "./components/RecommendedVideos";
 
-const tijd = "00.07.00";
+const tijd = "1.35.00";
 
 function App() {
   return (
     <div className='app'>
       <Navbar />
       <div className='app__body'>
-        <div className='app__bodySidebar'>
-          <Sidebar />
-        </div>
+        <Sidebar />
+        <RecommendedVideos />
       </div>
     </div>
   );

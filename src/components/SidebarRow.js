@@ -1,11 +1,11 @@
 import React from "react";
-import "./Sidebar.css";
+import "./SidebarRow.css";
 
 export default function SidebarRow({ Icon, title }) {
   return (
     <div className='sidebarRow'>
-      {Icon && <Icon style={{ color: "gray" }} />}
-      <h5>{title}</h5>
+      <Icon className='sidebarRow__icon' />
+      <h2 className='sidebarRow__title'>{title}</h2>
     </div>
   );
 }
