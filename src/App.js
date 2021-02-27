@@ -6,8 +6,6 @@ import RecommendedVideos from "./components/RecommendedVideos";
 import SearchPage from "./components/SearchPage";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const tijd = "03.10.00";
-
 function App() {
   return (
     <div className='app'>
