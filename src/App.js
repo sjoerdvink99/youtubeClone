@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import RecommendedVideos from "./components/RecommendedVideos";
 
-const tijd = "1.35.00";
+const tijd = "02.13.54";
 
 function App() {
   return (
